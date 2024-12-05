@@ -5,16 +5,15 @@ import Footer from "../components/footer";
 
 const BiCurePage = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-pink-50 via-pink-20 to-white">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-pink-100 via-pink-50 to-white">
       <Navbar />
       <main className="flex-grow container mx-auto px-4 md:px-8 py-8 md:py-16 text-center">
         <section>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 md:mb-8 text-gray-800">
-            Welcome to Bi Cure AI
+            Welcome to B-Cure AI
           </h1>
           <p className="text-base md:text-lg text-gray-600 leading-relaxed max-w-xl mx-auto">
-            At Bi Cure AI, we believe in the power of early detection in battling breast cancer. Early diagnosis can
-            significantly improve prognosis and survival rates. Join us in spreading awareness and staying informed.
+            B-Cure AI is a powerful, AI-driven platform designed to assist in early detection of breast cancer. By analyzing user-provided data with advanced LLM technology, it delivers accurate, personalized risk assessments. Our goal is to empower users with proactive insights, promoting early diagnosis and better health outcomes.
           </p>
           <button className="mt-6 px-6 py-3 md:px-8 md:py-4 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600 transition-all">
             Learn More

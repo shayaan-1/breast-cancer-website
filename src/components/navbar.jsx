@@ -8,12 +8,12 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <img
-            src="/assets/icon.png"
+            src="/assets/logo.avif"
             alt="Bi Cure AI Logo"
             className="h-8 w-8 md:h-10 md:w-10"
           />
           <h1 className="text-2xl md:text-3xl font-extrabold text-pink-700">
-            Bi Cure AI
+            B-Cure AI
           </h1>
         </div>
 
