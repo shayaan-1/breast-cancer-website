@@ -7,6 +7,7 @@ const BiCurePage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-pink-100 via-pink-50 to-white">
       <Navbar />
+      {/* title and description of B-Cure */}
       <main className="flex-grow container mx-auto px-4 md:px-8 py-8 md:py-16 text-center">
         <section>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 md:mb-8 text-gray-800">
@@ -20,6 +21,7 @@ const BiCurePage = () => {
           </button>
         </section>
 
+        {/* //2 cards in flex box section */}
         <section className="mt-12 md:mt-16 grid gap-8 sm:grid-cols-1 md:grid-cols-2">
           <Card
             imageSrc="/assets/leftpicture.jpg"
@@ -33,6 +35,7 @@ const BiCurePage = () => {
             />
           </section>
         </main>
+        
         <Footer />
       </div>
 ); 

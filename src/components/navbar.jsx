@@ -17,6 +17,7 @@ const Navbar = () => {
           </h1>
         </div>
 
+        {/* burger menu for small screen and the function to open it, since the options are hidden by default */}
         <div
           className="md:hidden flex items-center cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -28,6 +29,7 @@ const Navbar = () => {
           </div>
         </div>
 
+        {/* optionally displaying burger menu and rest of navbar */}
         <nav
           className={`absolute md:relative md:flex md:space-x-6 items-center md:bg-transparent bg-white top-full left-0 w-full md:w-auto md:p-0 p-4 ${
             menuOpen ? "block" : "hidden"
